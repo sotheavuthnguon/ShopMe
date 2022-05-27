@@ -3,8 +3,10 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:flutter_shop_me_dio/src/constants/app_constants.dart';
 
+// ignore: constant_identifier_names
 enum Method { POST, GET, PUT, DELETE, PATCH }
 
+// ignore: constant_identifier_names
 const BASE_URL = 'https://fakestoreapi.com/';
 
 class HttpService {
